@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Language" content="ja">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex,follow">
+<title><?php echo $title_name; ?> | 検索結果：<?php echo $keyword_input; ?></title>
+<link rel="stylesheet" href="<?php echo PATH_CSS; ?>style.css" type="text/css">
+</head>
+
+<body>
+[ <a href="<?php echo $script_name4html; ?>">&lt;&lt; 掲示板に戻る</a> ]<br>
+<center>
+<form action="<?php echo $script_name4html; ?>" method="get"><font color="#CC6633">▼</font>キーワードは半角スペースで区切って下さい<br>
+<input type="hidden" name="mode" value="do_search">
+<input type="text" name="kw" size="30" maxlength="64" value="<?php echo $keyword_input; ?>">
+<input type="submit" value="検索">
+</form>
+<br><br>
+<hr class="horizon">
+</center>
+<?php echo $list_detail; ?>
+<?php echo $pagectl_details; ?>
+<?php echo $pages_str; ?>
+<p align="center">
+<!-- (↓修正不可↓) -->
+<?php show_copyright(); ?>
+<!-- (↑修正不可↑) -->
+</p>
+</body>
+</html>

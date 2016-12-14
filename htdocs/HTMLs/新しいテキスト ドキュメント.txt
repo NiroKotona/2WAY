@@ -1,0 +1,91 @@
+<div class="kusai">
+        <div class="featurette" id="members">
+            <img class="featurette-image img-circle img-responsive pull-right" src="img/ikisugiiii.jpg">
+            <h2 class="featurette-heading">[2WAY]Ikisugiii
+                <span class="text-muted">BF4,PSO2</span>
+            </h2>
+            <p class="lead">んにゃぴ・・・よくわかんなかったです・・・<?php echo $_SESSION['username']; ?></p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="featurette" id="segdgdgd">
+            <img class="featurette-image img-circle img-responsive pull-left" src="img/variii.jpg">
+            <h2 class="featurette-heading">[2WAY]Variii
+                <span class="text-muted">BF4</span>
+            </h2>
+            <p class="lead">ないです。</p>
+        </div>
+
+		<hr class="featurette-divider">
+
+        <div class="featurette" id="members">
+            <img class="featurette-image img-circle img-responsive pull-right" src="img/amase.jpg">
+            <h2 class="featurette-heading">[2WAY]amase0113
+                <span class="text-muted">BF4,DDON</span>
+            </h2>
+            <p class="lead">アダルトグッズマスター<br>エンブレム作成</p>
+        </div>
+	</div>
+
+
+　　　		<hr class="featurette-divider">
+
+        <!-- Second Featurette -->
+        <div class="featurette" id="rdtg">
+            <img class="featurette-image img-circle img-responsive pull-left" src="img/kaji.jpg">
+            <h2 class="featurette-heading">[2WAY]kaji0118
+                <span class="text-muted">BF4,PSO2</span>
+            </h2>
+            <p class="lead">生は＋5000円<b>（迫真）</b><br>エンブレム原案</p>
+        </div>
+
+		<hr class="featurette-divider">
+
+        <div class="featurette" id="members">
+            <img class="featurette-image img-circle img-responsive pull-right" src="img/kotona1.jpg">
+            <h2 class="featurette-heading">ことな
+                <span class="text-muted">BOT</span>
+            </h2>
+            <p class="lead">公式設定でガチレズの女の子<br>元はPSO2のキャラ<br>歌うのが好き</p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="featurette" id="rdtg">
+            <img class="featurette-image img-circle img-responsive pull-left" src="img/daniii.jpg">
+            <h2 class="featurette-heading">[2WAY]Daniel-Defense18
+                <span class="text-muted">BF4</span>
+            </h2>
+            <p class="lead">生は＋5000円<b>（迫真）</b></p>
+        </div>
+
+		<hr class="featurette-divider">
+		
+		        <div class="featurette" id="members">
+            <img class="featurette-image img-circle img-responsive pull-right" src="img/pepe.jpg">
+            <h2 class="featurette-heading">[2WAY]penpenava
+                <span class="text-muted">BF4</span>
+            </h2>
+            <p class="lead">ぬわあああああああああああん疲れたもおおおおおおおおおおおおおおおん</p>
+        </div>
+
+        <hr class="featurette-divider">
+        
+                <div class="featurette" id="rdtg">
+            <img class="featurette-image img-circle img-responsive pull-left" src="img/teto.jpg">
+            <h2 class="featurette-heading">[2WAY]tetomelon
+                <span class="text-muted">PSO2</span>
+            </h2>
+            <p class="lead">あ＾～いいっすね＾～</p>
+        </div>
+
+		<hr class="featurette-divider">
+		
+				<div class="featurette" id="members">
+            <img class="featurette-image img-circle img-responsive pull-right" src="img/yakumo.jpg">
+            <h2 class="featurette-heading">[2WAY]yakumoran1
+                <span class="text-muted">BF4</span>
+            </h2>
+            <p class="lead">兵士のケツを追うことなら任せろ</p>
+        </div>

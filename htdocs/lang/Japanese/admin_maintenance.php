@@ -1,0 +1,40 @@
+<?php
+
+// Language definitions used in admin_maintenance.php
+$lang_admin_maintenance = array(
+
+'Maintenance head'				=>	'フォーラムのメンテナンス',
+'Rebuild index subhead'			=>	'検索インデクスの再構築',
+'Rebuild index info'			=>	'データベースの投稿データをマニュアルで追加・編集・削除した場合や検索に問題がある場合は、検索インデクスを再構築します。パフォーマンスを考慮して、再構築中はフォーラムを%sにすべきです。 <strong>通常、検索インデクスの再構築には長い時間とサーバーへの負荷が掛かります。</strong>',
+'Posts per cycle label'			=>	'処理単位',
+'Posts per cycle help'			=>	'１つのリクエストで処理する投稿数を指定します。例えば300を指定した場合、300件処理するごとにページがリフレッシュされます。これは、再構築処理中にスクリプトがタイムアウトすることを防ぎます。',
+'Starting post label'			=>	'開始ID',
+'Starting post help'			=>	'再構築を開始する投稿IDを指定します。表示中の値はデータベース内の最初の有効なIDです。通常は変更しません。',
+'Empty index label'				=>	'インデクスのクリア',
+'Empty index help'				=>	'インデクスを一旦削除してから再構築する場合にチェックします（下記参照）。',
+'Rebuild completed info'		=>	'処理中はブラウザのJavaScriptを有効にすることを強く推奨します（１サイクルの処理が終わるたびにこのページにリダイレクトされるため）。やむを得ず処理を中断する場合は、最後に処理されたIDをメモし、"開始ID"にID+1を指定して再開します（この場合"インデクスのクリア"は選択しません）。',
+'Rebuild index'					=>	'再構築',
+'Rebuilding search index'		=>	'検索インデクスを再構築しています。',
+'Rebuilding index info'			=>	'インデクスを再構築しています。コーヒーでも飲んでお待ちください。 ^^',
+'Processing post'				=>	'<strong>%s</strong> を処理中 …',
+'Click here'					=>	'クリック',
+'Javascript redirect failed'	=>	'JavaScriptでのリダイレクトに失敗しました。%s で継続 …',
+'Posts must be integer message'	=>	'投稿サイクルは正の整数を指定してください。',
+'Days must be integer message'	=>	'Days to prune must be a positive integer value.',
+'No old topics message'			=>	'There are no topics that are %s days old. Please decrease the value of "Days old" and try again.',
+'Posts pruned redirect'			=>	'Posts pruned. Redirecting …',
+'Prune head'					=>	'Prune',
+'Prune subhead'					=>	'Prune old posts',
+'Days old label'				=>	'Days old',
+'Days old help'					=>	'The number of days "old" a topic must be to be pruned. E.g. if you were to enter 30, every topic that didn\'t contain a post dated less than 30 days old would be deleted.',
+'Prune sticky label'			=>	'Prune sticky topics',
+'Prune sticky help'				=>	'When enabled, sticky topics will also be pruned.',
+'Prune from label'				=>	'Prune from forum',
+'All forums'					=>	'All forums',
+'Prune from help'				=>	'The forum from which you want to prune posts.',
+'Prune info'					=>	'Use this feature with caution. <strong>Pruned posts can never be recovered.</strong> For best performance, you should put the forum in %s during pruning.',
+'Confirm prune subhead'			=>	'Confirm prune posts',
+'Confirm prune info'			=>	'Are you sure that you want to prune all topics older than %s days from %s (%s topics).',
+'Confirm prune warn'			=>	'WARNING! Pruning posts deletes them permanently.',
+
+);

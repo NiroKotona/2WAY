@@ -1,0 +1,16 @@
+Options -Indexes
+DirectoryIndex index.php
+
+php_flag register_globals Off
+php_flag magic_quotes_gpc Off
+
+php_value default_charset UTF-8
+php_value mbstring.language Japanese
+php_value mbstring.internal_encoding UTF-8
+php_value mbstring.input_encoding pass
+php_value mbstring.output_encoding pass
+php_value mbstring.detect_order         ASCII,JIS,UTF-8,SJIS,EUC-JP
+php_value mbstring.substitute_character none
+
+php_value display_errors 0
+php_value error_reporting 6135
